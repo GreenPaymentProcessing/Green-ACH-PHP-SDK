@@ -1,4 +1,4 @@
-# Green-PHP-SDK
+# Green-ACH-PHP-SDK
 A fully featured PHP SDK for calling methods from the Green Payment Processing API and parsing the responses. The ACH API allows for complete integration of your application into our real-time ACH Credit/Debit entry system. 
 
 # Server Requirements
