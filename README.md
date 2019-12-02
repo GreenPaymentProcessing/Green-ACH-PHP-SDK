@@ -14,8 +14,6 @@ Installation is as easy as copying the Green.php file and including it in your s
 # Usage
 In order to use our library, simply require the Green.php file, instantiate an object of the ACHGateway class, and then call its methods! Note that you must have valid API credentials (Client_ID and ApiPassword). If you do not have these, please contact Green Customer Support to get those for your merchant account
 ```php
-<?php 
-
 require_once 'path/to/Green.php';
 
 use Green;
@@ -42,7 +40,10 @@ $result = $gateway->transactionStatus($txn_id, TRUE, ',');
 //$result =  "0,Not yet processed,123456";
 ```
 # Examples
-This repository contains an examples folder with a few files that should give a pretty comprehensive idea on how to use the main functions of this SDK to do things like create transactions and view their status via API calls.
+This repository contains an examples folder with a few files that should give an idea on how to use the main functions of this SDK to do things like create transactions and view their status via API calls. These examples may not have been fully tested and as such may not be suitable for a production environment.
 
 # API Documentation
 Complete API documentation on all methods can be found at [Green's website](http://www.green.money/api) and you can contact [Customer Support](http://www.green.money/contact) with any questions about integration. When contacting support, please include in that email the name of the merchant you are with to speed up the process.
+
+# License
+This code is released under a modified MIT License which can be found in the repository code.
